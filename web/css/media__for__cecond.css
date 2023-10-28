@@ -1,0 +1,30 @@
+@media(max-width: 1140px) {
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .footer__row{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__wraper{
+        margin-bottom: 50px;
+    }
+    .footer__wraper:first-child{
+        margin-bottom: 0;
+    }
+    .project__img img{
+        max-width: 100%;
+    }
+}
+
+
+
+
+@media(max-width: 760px) {
+    .project__text{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+}
